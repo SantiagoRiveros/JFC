@@ -1,10 +1,12 @@
 import { useHistory } from "react-router-dom";
+import React from "react";
+import style from "../CSS/navBar.module.scss";
 
 export default function NavBar() {
   const { push } = useHistory();
 
   return (
-    <div>
+    <nav className={style.nav}>
       <ul>
         <li>Bienes Raices</li>
         <li>Legal</li>
@@ -14,6 +16,6 @@ export default function NavBar() {
         <li>Nosotros</li>
         <li>Contactanos</li>
       </ul>
-    </div>
+      </nav>
   );
 }
