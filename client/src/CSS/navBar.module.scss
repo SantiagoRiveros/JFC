@@ -1,0 +1,29 @@
+.nav {
+    background: #fafafa;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    top: 0;
+  }
+  
+  
+    li {
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border-style: solid;
+      border-width: 2px;
+      border-color: transparent;
+      height: 3rem;
+  
+      &:hover {
+        border-bottom-color: var(--color-primary);
+      }
+    }

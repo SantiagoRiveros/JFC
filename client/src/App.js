@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/NavBar";
+import React from "react";
 import Home from "./components/Home/Home";
 import Generic from "./components/Generic/Generic";
-import { Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
