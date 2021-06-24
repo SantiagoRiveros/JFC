@@ -1,0 +1,28 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    height: 100vh;
+  }
+
+  .fondo { 
+    background-image: url("../img/5.jpg");
+    background-size:cover;
+    height: 800px;
+    width: fit-content;
+    text-align: center;
+  padding-top: 2vw;
+  }
+
+.title{
+    font-size: 4rem;
+    font-weight: 14;
+    color: rgb(3, 78, 162);
+    }
+
+.text {
+    padding-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
