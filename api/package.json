@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SantiagoRiveros/Technical-Test.git"
+    "url": "git+https://github.com/SantiagoRiveros/JFC.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SantiagoRiveros/Technical-Test/issues"
+    "url": "https://github.com/SantiagoRiveros/JFC.git/issues"
   },
-  "homepage": "https://github.com/SantiagoRiveros/Technical-Test#readme",
+  "homepage": "https://github.com/SantiagoRiveros/JFC.git#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

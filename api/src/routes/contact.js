@@ -1,5 +1,6 @@
 const server = require("express").Router();
 const nodemailer = require("nodemailer");
+
 require("dotenv").config();
 //transporte para nodemailer
 let transporter = nodemailer.createTransport({

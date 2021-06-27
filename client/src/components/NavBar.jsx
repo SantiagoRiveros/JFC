@@ -30,7 +30,9 @@ export default function NavBar() {
           <h2 class="text">NOSOTROS</h2>
         </li>
         <li class="item">
-          <h2 class="text">CONTACTANOS</h2>
+          <h2 class="text" onClick={() => push("/contacto")}>
+            CONTACTANOS
+          </h2>
         </li>
       </ul>
     </div>
