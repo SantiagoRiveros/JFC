@@ -4,6 +4,9 @@ module.exports = (sequelize) => {
   const Product = sequelize.define("product", {
     titulo: {
       type: DataTypes.STRING,
+    },
+    precio: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     descripcion: {
