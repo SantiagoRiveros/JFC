@@ -1,0 +1,88 @@
+.contactbox {
+  font-size: 65px;
+  color: rgb(154, 4, 249);
+  margin-bottom: 2rem;
+  padding: 1rem 0rem 0rem;
+  text-shadow: 1px 1px 4px rgb(125, 59, 187), 1px 1px 4px #ccc;
+}
+.subtitle {
+  color: rgb(154, 4, 249);
+  font-size: 23px;
+  padding-top: 3rem;
+}
+.textboxOthers {
+  border-radius: 10px;
+  font-size: 19px;
+  font-style: italic;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 5px;
+  width: 250px;
+}
+.textbox {
+  border-radius: 10px;
+  font-size: 19px;
+  font-style: italic;
+  padding-left: 5px;
+  border-width: 2px;
+}
+.buttonContacto {
+  background-color: white;
+  color: rgb(154, 4, 249);
+}
+.buttonContacto:hover {
+  background-color: rgb(154, 4, 249);
+  color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+  .contactbox {
+    font-size: 30px;
+    padding-bottom: 0rem;
+    padding-top: 0.5rem;
+  }
+  .subtitle {
+    font-size: 19px;
+    padding-top: 0.5rem;
+  }
+  textarea {
+    max-width: 300px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .contactbox {
+    font-size: 35px;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+  }
+  .subtitle {
+    font-size: 19px;
+    padding-top: 1rem;
+  }
+  textarea {
+    max-width: 360px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .contactbox {
+    font-size: 40px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .subtitle {
+    font-size: 20px;
+    padding-top: 1rem;
+  }
+  textarea {
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .contactbox {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+  .subtitle {
+    padding-top: 2rem;
+  }
+}

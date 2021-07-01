@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar */
+.navList ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navList li {
+  padding-left: 2rem;
+}
+
+.colorNav {
+  color: #7b9e67;
+  font-size: medium;
+}
+.colorNav:hover {
+  color: #23423e;
+}
