@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 import style from "../../CSS/contact.css";
@@ -40,7 +40,7 @@ export default function Contact() {
   };
 
   return (
-    <>
+  
       <div
         style={{
           /*  backgroundImage: `url(${bgOthers})`, */
@@ -114,6 +114,6 @@ export default function Contact() {
           </p>
         </Container>
       </div>
-    </>
+  
   );
 }

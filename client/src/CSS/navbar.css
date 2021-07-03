@@ -1,6 +1,7 @@
 .fondo {
   background-color: #034ea2;
-  height: 100px;
+  height: 3.5rem;
+  
 }
 .list {
   padding: 0px;
@@ -11,10 +12,12 @@
   color: white;
   list-style-type: none;
   display: inline-flex;
-  /* margin: 1em; */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .text {
   text-decoration: none;
   font-size: 12px;
+  font-weight: lighter;
   padding: 10px 5px;
 }
