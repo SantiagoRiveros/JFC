@@ -47,13 +47,13 @@ server.post("/", (req, res, next) => {
 });
 
 //ruta para subir una foto de un producto
-/* server.post("/media", (req, res, next) => {
+server.post("/media", (req, res, next) => {
   const prodId = req.body.prodId;
   const url = req.body.url;
   ProductMedia.create({ productId: prodId, url: url })
     .then((data) => res.send(data))
     .catch(next);
-}); */
+});
 
 //ruta para editar un producto
 server.put("/", (req, res, next) => {
