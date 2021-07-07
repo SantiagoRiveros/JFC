@@ -24,7 +24,7 @@ server.get("/product/:id", (req, res, next) => {
 });
 
 server.post("/product", (req, res, next) => {
-  var url = req.body.url;
+  const url = req.body.url;
   const titulo = req.body.titulo;
   const precio = req.body.precio;
   const descripcion = req.body.descripcion;
@@ -63,7 +63,7 @@ server.post("/product/media", (req, res, next) => {
 });
 
 //ruta para editar un producto
-server.put("/product/", (req, res, next) => {
+server.put("/product", (req, res, next) => {
   const body = req.body;
   Product.findByPk(body.id)
     .then((data) => {
@@ -110,7 +110,7 @@ server.post("/blog/media", (req, res, next) => {
 });
 
 //ruta para editar una entrada del blog
-server.put("/blog/", (req, res, next) => {
+server.put("/blog", (req, res, next) => {
   const body = req.body;
   Blog.findByPk(body.id)
     .then((data) => {
@@ -123,7 +123,7 @@ server.put("/blog/", (req, res, next) => {
 });
 
 //ruta para eliminar una entrada del blog
-server.delete("/blog/", (req, res, next) => {
+server.delete("/blog", (req, res, next) => {
   const id = req.body.id;
   Blog.findByPk(id)
     .then((data) => {

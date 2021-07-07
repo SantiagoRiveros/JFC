@@ -10,7 +10,7 @@ export default function Catalogue() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000")
+      .get("http://localhost:3000/user/product")
       .then(({ data }) => setProductos(data))
       .catch((err) => console.log(err));
   }, []);
@@ -19,7 +19,12 @@ export default function Catalogue() {
     <div>
       {productos.count &&
         productos.rows.map((producto) => {
-          <ProductCard titulo={producto.titulo} metraje={producto.metraje} />;
+          <ProductCard
+            id={producto.id}
+            titulo={producto.titulo}
+            metraje={producto.metraje}
+            precio={producto.precio}
+          />;
         })}
     </div>
   );

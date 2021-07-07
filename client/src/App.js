@@ -3,12 +3,11 @@ import "./App.css";
 import Navbar from "./components/NavBar";
 import React from "react";
 import Home from "./components/Home/Home";
-
+import Catalogo from "./components/Catalogue/Catalogue";
 import Generic from "./components/Generic/Generic";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
-
 
 function App() {
   return (
@@ -17,10 +16,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" render={() => <Home />} />
-
+          <Route path="/catalogo" render={() => <Catalogo />} />
           <Route path="/generic" render={() => <Generic />} />
           <Route path="/contacto" render={() => <Contact />} />
-
         </Switch>
         <Footer />
       </Router>
