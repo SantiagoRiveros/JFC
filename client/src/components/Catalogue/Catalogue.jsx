@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
+import style from "../../CSS/catalogue.css";
 import ProductCard from "./ProductCard";
 import { checkPropTypes } from "prop-types";
 
@@ -16,7 +17,7 @@ export default function Catalogue() {
   }, []);
 
   return (
-    <div>
+    <div class="catalogue">
       {productos.count &&
         productos.rows.map((producto) => {
           <ProductCard
