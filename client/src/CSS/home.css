@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
-.container {
+.containerHome {
   font-family: 'Montserrat', sans-serif;
   width: auto;
   height: auto;
@@ -11,7 +11,7 @@
   background-image: url("../img/0.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 650px;
+  height: 750px;
   text-align: center;
 padding-top: 8.5vw;
 
@@ -47,9 +47,7 @@ color: rgb(3, 78, 162);
     background-color: white;
     height: 850px;
     width: -webkit-fill-available;
-    max-height: 100vw;
   display:flex;
-  position: absolute
   }
 
   .fondo2txt {
@@ -126,7 +124,7 @@ filter: brightness(80%);
     bottom: 130px;
 }
 
-.boton1{
+.botonHome1{
   background-color: rgb(3, 78, 162);
   color: #fafafa;
   border: none;
@@ -138,7 +136,7 @@ filter: brightness(80%);
   font-family: 'Montserrat', sans-serif;
 }
 
-.boton2{
+.botonHome2{
   background-color: #fafafa ;
   color: black;
   font-size: 16px;
@@ -158,17 +156,18 @@ margin-right: 37.5rem;
 margin-bottom: 0.6rem;
 }
 
-.imput{
-  width: 50%;
+.imputHome{
+  width: 52%;
   position: relative;
-  padding: 0.7rem 0.8rem;
+  padding: 0.2rem 0.3rem;
   border: none;
 }
 
-.boton3{
+.botonHome3{
   background-color: rgb(3, 78, 162);
   color: #fafafa;
   border: none;
+  padding-bottom: 0.2rem;
   font-size: 16px;
   font-weight:500;
   padding: 0.6rem 0.9rem;
@@ -181,7 +180,7 @@ margin-top: 0.7em;
 margin-left: 21.6rem;
 }
 
-.boton4{
+.botonHome4{
   background-color: #fafafa ;
   color: black;
   border: none;

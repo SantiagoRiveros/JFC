@@ -1,8 +1,6 @@
 import style from "../../CSS/home.css";
-
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-
 import img1 from "../../img/1.jpg";
 import img2 from "../../img/2.jpg";
 import img3 from "../../img/3.jpg";
@@ -13,31 +11,31 @@ export default function Home() {
   const [search, setSearch] = useState("");
   const { push } = useHistory();
   return (
-    <div class="container">
+    <div class="containerHome">
       <div class="fondo1">
         <h1 class="img1h1">ELIGE BIEN,</h1>
         <h1 class="img1h12">VIVE BIEN.</h1>
         <h6 class="img1h6"> Solo estás a una decisión de distancia...</h6>
         <div class="container2">
           {type === "Comprar" ? (
-            <button class="boton1">Comprar</button>
+            <button class="botonHome1">Comprar</button>
           ) : (
-            <button class="boton1" onClick={() => setType("Comprar")}>ComprarX</button>
+            <button class="botonHome1" onClick={() => setType("Comprar")}>ComprarX</button>
           )}
           {type === "Alquilar" ? (
-            <button class="boton2" >Alquilar</button>
+            <button class="botonHome2" >Alquilar</button>
           ) : (
-            <button class="boton2" onClick={() => setType("Alquilar")}>Alquilar</button>
+            <button class="botonHome2" onClick={() => setType("Alquilar")}>Alquilar</button>
           )}
         </div>
-            <input class="imput" type="text" />
-            <button class="boton3">B</button>
+            <input class="imputHome" type="text" />
+            <button class="botonHome3">B</button>
           <div class="containterboton">
-          <button class="boton4">Ver búsqueda avanzada</button>
-          <button class="boton4">Ver inventario Completo</button>
+          <button class="botonHome4 btn-sm" >Ver búsqueda avanzada</button>
+          <button class="botonHome4 btn-sm">Ver inventario Completo</button>
           </div>
       </div>
-      <img src={img1} class="fondo2" />
+      <div class="fondo2">
       <div class="fondo2txt">
         <h6 class="img2h6">EL MEJOR SERVICIO POST-VENTA</h6>
         <h1 class="img2h1">UNA EMPRESA</h1>
@@ -81,6 +79,7 @@ export default function Home() {
             <span class="lii">Contratistas</span>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

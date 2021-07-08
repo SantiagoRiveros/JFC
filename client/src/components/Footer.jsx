@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         </div>
         <div className="containers2">
-          <ul>
+          <ul style={{paddingRight: '60px', margin: '0'}}>
             <li className="lis">Preguntas frecuentes</li>
             <li className="lis">Solicitud de contrato</li>
             <li className="lis">Trabaja con nosotros</li>
